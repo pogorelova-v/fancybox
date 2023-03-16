@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальные окна на FancyBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Модальные окна на FancyBox</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container">
+                <div class="modal" id="modal1">
+                    <h2>Модал при первом запуске страницы</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sunt fugit expedita blanditiis, illo officia quod recusandae dolorum dolore optio? Voluptatibus nisi illo necessitatibus nobis provident dignissimos voluptatum perferendis vero!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa vitae! Quidem similique, amet unde, facilis recusandae exercitationem quibusdam saepe illo suscipit ea corrupti temporibus. Ad deserunt architecto ratione fugiat!</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <a class="btn_modal" href="#modal2" data-fancybox="btn_modal2">Модал по клику 1 вариант</a>
+                <div class="modal" id="modal2">
+                    <h2>Модал по клику 1 вариант (тег "a")</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sunt fugit expedita blanditiis, illo officia quod recusandae dolorum dolore optio? Voluptatibus nisi illo necessitatibus nobis provident dignissimos voluptatum perferendis vero!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa vitae! Quidem similique, amet unde, facilis recusandae exercitationem quibusdam saepe illo suscipit ea corrupti temporibus. Ad deserunt architecto ratione fugiat!</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <button class="btn_modal" data-fancybox="btn_modal3" data-src="#modal3">Модал по клику 2 вариант</button>
+                <div class="modal" id="modal3">
+                    <h2>Модал по клику 2 вариант ("button")</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sunt fugit expedita blanditiis, illo officia quod recusandae dolorum dolore optio? Voluptatibus nisi illo necessitatibus nobis provident dignissimos voluptatum perferendis vero!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, culpa vitae! Quidem similique, amet unde, facilis recusandae exercitationem quibusdam saepe illo suscipit ea corrupti temporibus. Ad deserunt architecto ratione fugiat!</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <a class="btn_modal" href="https://www.youtube.com/watch?v=rWEsjNWBoIE" data-fancybox="btn_modal4" data-width="800" data-height="500"> Видео YouTube</a>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="video_wrap">
+                    <h2>Галерея видео с превью img</h2>
+                    <a class="m10" href="https://youtu.be/caVTKooakww" data-fancybox="btn_modal5">
+                        <img src="https://loremflickr.com/150/150/dog">
+                    </a>
+                    <a class="m10" href="https://youtu.be/5ANu4_7LvKQ" data-fancybox="btn_modal5">
+                        <img src="https://loremflickr.com/150/150/cat">
+                    </a>
+                    <a class="m10" href="https://youtu.be/UOzZgCViHNE" data-fancybox="btn_modal5">
+                        <img src="https://loremflickr.com/150/150/horse">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        
+        <section>
+            <div class="container">
+                <a class="btn_modal" href="modal6.html" data-fancybox="btn_modal6" data-width="640" data-height="480" data-type="iframe">Модал iframe</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <a class="btn_modal" href="https://www.google.com/maps/@51.5039653,-0.1246493,14.12z" data-width="800" data-height="500" data-fancybox="btn_modal7" > Модал карта </a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="container">
+            <a href="mailto:pogorelova@upfly.ru">pogorelova@upfly.ru</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
